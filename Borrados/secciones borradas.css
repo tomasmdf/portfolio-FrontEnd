@@ -1,0 +1,107 @@
+
+/* 
+
+
+    SKILLS SECTION
+
+
+*/
+.section_skills {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_skills svg {
+    background: linear-gradient(95deg, #2F1A5B, #7141D9);
+}
+.container {
+    min-height: 500px;
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(85deg, #2F1A5B, #7141D9);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tittle_section h2 {
+    margin-bottom: 10px;
+}
+.tittle_section, .tittle_section h3{
+    color: var(--fuente-blanco);
+}
+.section_skills_grid_container {
+    width: 70%;
+    justify-content: center;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+    grid-template-rows: 1fr;
+    gap: 70px;
+}
+.section_skills_grid_item {
+    padding: 15px;
+    background-color: var(--block-back);
+    border-radius: 20px;
+    min-width: max-content;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    height: max-content;
+}
+.tittle_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.left_side {
+    display: flex;
+    align-items: center;
+}
+.left_side h2{
+    font-size: var(--subtittle-size);
+    color: var(--fuente-blanco);
+}
+.left_side i {
+    margin-right: 10px;
+    color: var(--primario);
+    font-size: var(--tittle-size);
+}
+.right_side i {
+    margin-left: 40px;
+    font-size: var(--tittle-size);
+    color: var(--color-secundario);
+}
+.skills_list_container {
+    padding: 0 20px;
+}
+.skill_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.skill_information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: var(--progress-bar-font-size);
+    margin-bottom: 5px;
+}
+.skill_name {
+    color: var(--fuente-blanco);
+    font-weight: 500;
+}
+.skill_procentage {
+    color: var(--color-secundario);
+}
+.skill_progress {
+    width: 100%;
+    height: 10px;
+    background-color: #91F595;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
